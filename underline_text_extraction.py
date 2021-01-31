@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import re
 
 # assign the line a vector with zeros if no underline and ones
@@ -79,7 +81,7 @@ def get_underlined_text(text):
         counter += 1
     # create a list with the extracted text
     s = s.split('$$')
-    print(type(s))
+
     return s
 
 text = open('text.txt')
